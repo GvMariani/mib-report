@@ -8,6 +8,7 @@ Url:		https://github.com/OpenMandrivaAssociation/mib-report
 # Self prepared sources: to make a new release change the sources,
 # update ChangeLog, urls.txt and globals.h and then repackage
 Source0:	%{name}-%{version}.tar.xz
+BuildRequires:		qmake5
 BuildRequires:		pkgconfig(Qt5Core)
 BuildRequires:		pkgconfig(Qt5Gui)
 BuildRequires:		pkgconfig(rpm)
