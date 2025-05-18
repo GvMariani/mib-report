@@ -12,6 +12,7 @@ BuildRequires:		qmake5
 BuildRequires:		pkgconfig(Qt5Core)
 BuildRequires:		pkgconfig(Qt5Gui)
 BuildRequires:		pkgconfig(rpm)
+BuildRequires:		qmake5
 Requires:	curl
 Requires:	lynx
 Requires:	xz
